@@ -20,6 +20,7 @@ useEffect(()=>{
   return (
     <>
     <h1 className='text-center text-3xl text-white p-4 bg-gray-600'>Github Followers : {data.followers}</h1>
+    <img src={data.avatar_url} alt="" />
     </>
   )
 }
